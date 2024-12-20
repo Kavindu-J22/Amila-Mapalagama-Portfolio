@@ -779,4 +779,70 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
+
+    .about {
+        margin-top: 50px;
+        padding-top: 10px;
+        flex-direction: column-reverse;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .about-img img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .about-content h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .about-content h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-content p {
+        font-size: 1.4rem;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .about-content .tab-titles {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .about-content .tab-links {
+        padding-right: 0;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #abtbtn {
+        margin-top: 1rem;
+    }
+
+    .tab-contents {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .tab-contents ul li {
+        font-size: 1.4rem;
+    }
+
+    .tab-contents ul li span {
+        font-size: 10px;
+    }
+
+    .tab-contents ul li p {
+        font-size: 0.9rem;
+    }
 }
